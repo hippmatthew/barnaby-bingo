@@ -12,6 +12,7 @@ struct Cell : View {
     let size : CGFloat
     
     @State private var isSelected = false
+    @State private var generator = UIImpactFeedbackGenerator(style: .light)
     
     var body : some View {
         Text(text)
@@ -29,6 +30,8 @@ struct Cell : View {
             .animation(.easeOut(duration: 0.25), value: isSelected)
             .onTapGesture {
                 isSelected.toggle()
+                generator.prepare()
+                generator.impactOccurred()
             }
     }
 }
