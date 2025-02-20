@@ -1,3 +1,3 @@
 # Midsomer Bingo
 
-[Install](itms-services://?action=download-manifest&url=https://hippmatthew.github.io/Midsomer-Bingo/manifest.plist)
+[Install](itms-services://?action=download-manifest&url=https://github.com/hippmatthew/Midsomer-Bingo/manifest.plist)
