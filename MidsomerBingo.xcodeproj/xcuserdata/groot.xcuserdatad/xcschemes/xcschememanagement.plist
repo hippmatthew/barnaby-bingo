@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MidsomerBingo.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>bingo-creator.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2A60407E2D66967800F96E24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2A60408E2D66967A00F96E24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2A6040982D66967A00F96E24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2A6040BA2D66A3F600F96E24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
