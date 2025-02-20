@@ -38,9 +38,10 @@ extension Color {
 
 struct Colors {
     static let primary = Color(hex: "#FFFDD0")
-    static let secondary = Color(hex: "#93FAA5")
-    static let tertiary = Color(hex: "#404D3D")
+    static let secondary = Color(hex: "#CCCCFF")
+    static let tertiary = Color(hex: "#560591")
     static let background = Color(hex: "#B5C0C9")
     static let shadow = Color(hex: "#B5C0C9")
-    static let text = Color(hex: "#2E3134")
+    static let textLight = Color(hex: "#CCCCFF")
+    static let textDark = Color(hex: "#36454F")
 }

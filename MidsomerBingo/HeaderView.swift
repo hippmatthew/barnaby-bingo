@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct Header : View {
+    private let brightness = 0.75
+    
     var body: some View {
         VStack {
             Text("midsomer")
                 .padding(.bottom, 1)
                 .font(.custom("SnellRoundhand", size: 23))
                 .kerning(6)
-                .foregroundColor(Colors.text)
+                .foregroundColor(Colors.textLight)
+                .brightness(brightness)
                 .bold()
             
             HStack(spacing: 0) {
@@ -22,15 +25,17 @@ struct Header : View {
                     Text(String(c))
                         .font(.custom("MarkerFelt-Wide", size: 40))
                         .frame(maxWidth: .infinity)
+                        .foregroundColor(Colors.textLight)
+                        .brightness(brightness)
                         .bold()
-                        .foregroundColor(Colors.text)
                 }
             }
             .padding(.bottom, 7)
             
             Divider()
                 .frame(height: 1)
-                .background(Color.black)
+                .background(Colors.textLight)
+                .brightness(brightness)
                 .padding(.leading, 10)
                 .padding(.trailing, 10)
             
@@ -40,4 +45,6 @@ struct Header : View {
 
 #Preview {
     Header()
+        .padding(5)
+        .background(Color.black)
 }
