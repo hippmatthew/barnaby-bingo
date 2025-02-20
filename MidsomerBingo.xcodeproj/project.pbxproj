@@ -24,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		2A1395472D67054A003C81DF /* manifest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = manifest.plist; sourceTree = "<group>"; };
-		2A60407F2D66967800F96E24 /* MidsomerBingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MidsomerBingo.app; path = "/Users/groot/Documents/dev/remote/Midsomer-Bingo/build/Debug-iphoneos/MidsomerBingo.app"; sourceTree = "<absolute>"; };
-		2A6040BB2D66A3F600F96E24 /* bingo-creator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "bingo-creator"; path = "/Users/groot/Documents/dev/remote/Midsomer-Bingo/build/Debug/bingo-creator"; sourceTree = "<absolute>"; };
+		2A13956D2D670F0C003C81DF /* MidsomerBingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidsomerBingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A13956E2D670F0C003C81DF /* bingo-creator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bingo-creator"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -78,6 +78,8 @@
 				2A6040812D66967800F96E24 /* MidsomerBingo */,
 				2A6040BC2D66A3F600F96E24 /* bingo-creator */,
 				2A1395472D67054A003C81DF /* manifest.plist */,
+				2A13956D2D670F0C003C81DF /* MidsomerBingo.app */,
+				2A13956E2D670F0C003C81DF /* bingo-creator */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +105,7 @@
 			packageProductDependencies = (
 			);
 			productName = MidsomerBingo;
-			productReference = 2A60407F2D66967800F96E24 /* MidsomerBingo.app */;
+			productReference = 2A13956D2D670F0C003C81DF /* MidsomerBingo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2A6040BA2D66A3F600F96E24 /* bingo-creator */ = {
@@ -125,7 +127,7 @@
 			packageProductDependencies = (
 			);
 			productName = "bingo-creator";
-			productReference = 2A6040BB2D66A3F600F96E24 /* bingo-creator */;
+			productReference = 2A13956E2D670F0C003C81DF /* bingo-creator */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -322,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MidsomerBingo/Preview Content\"";
+				DEVELOPMENT_TEAM = 978Z5LF5RZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MidsomerBingo/Info.plist;
@@ -356,6 +359,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MidsomerBingo/Preview Content\"";
+				DEVELOPMENT_TEAM = 978Z5LF5RZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MidsomerBingo/Info.plist;
