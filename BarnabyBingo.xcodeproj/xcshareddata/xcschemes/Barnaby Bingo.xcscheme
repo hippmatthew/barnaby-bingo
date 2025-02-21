@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2A60407E2D66967800F96E24"
-               BuildableName = "MidsomerBingo.app"
-               BlueprintName = "MidsomerBingo"
-               ReferencedContainer = "container:MidsomerBingo.xcodeproj">
+               BlueprintIdentifier = "2A0C34DF2D690AEF00EA927F"
+               BuildableName = "Barnaby Bingo.app"
+               BlueprintName = "Barnaby Bingo"
+               ReferencedContainer = "container:BarnabyBingo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,30 +29,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
-      <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2A60408E2D66967A00F96E24"
-               BuildableName = "MidsomerBingoTests.xctest"
-               BlueprintName = "MidsomerBingoTests"
-               ReferencedContainer = "container:MidsomerBingo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2A6040982D66967A00F96E24"
-               BuildableName = "MidsomerBingoUITests.xctest"
-               BlueprintName = "MidsomerBingoUITests"
-               ReferencedContainer = "container:MidsomerBingo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -68,12 +44,18 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2A60407E2D66967800F96E24"
-            BuildableName = "MidsomerBingo.app"
-            BlueprintName = "MidsomerBingo"
-            ReferencedContainer = "container:MidsomerBingo.xcodeproj">
+            BlueprintIdentifier = "2A0C34DF2D690AEF00EA927F"
+            BuildableName = "Barnaby Bingo.app"
+            BlueprintName = "Barnaby Bingo"
+            ReferencedContainer = "container:BarnabyBingo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "sources.txt"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -85,10 +67,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2A60407E2D66967800F96E24"
-            BuildableName = "MidsomerBingo.app"
-            BlueprintName = "MidsomerBingo"
-            ReferencedContainer = "container:MidsomerBingo.xcodeproj">
+            BlueprintIdentifier = "2A0C34DF2D690AEF00EA927F"
+            BuildableName = "Barnaby Bingo.app"
+            BlueprintName = "Barnaby Bingo"
+            ReferencedContainer = "container:BarnabyBingo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="6cj-mN-Eem">
+                                <rect key="frame" x="76.5" y="430" width="261" height="36"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Barnaby Bingo">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="Rockwell-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6cj-mN-Eem" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4e5-gk-ohI"/>
+                            <constraint firstItem="6cj-mN-Eem" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="A9P-5S-aak"/>
+                            <constraint firstItem="6cj-mN-Eem" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="APV-Ze-dhd"/>
+                            <constraint firstItem="6cj-mN-Eem" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="IbH-RV-pen"/>
+                            <constraint firstItem="6cj-mN-Eem" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dxD-MM-6P5"/>
+                            <constraint firstItem="6cj-mN-Eem" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="fVo-eb-miW"/>
+                            <constraint firstItem="6cj-mN-Eem" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jfW-UU-RtN"/>
+                            <constraint firstItem="6cj-mN-Eem" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="q59-Ba-GJZ"/>
+                            <constraint firstItem="6cj-mN-Eem" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="tkw-AJ-F0n"/>
+                            <constraint firstItem="6cj-mN-Eem" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vsR-h1-z2n"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.45454545454546" y="373.43096234309627"/>
+        </scene>
+    </scenes>
+</document>

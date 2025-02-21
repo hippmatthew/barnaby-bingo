@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MidsomerBingo.xcscheme_^#shared#^_</key>
+		<key>Barnaby Bingo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -17,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2A0C34DF2D690AEF00EA927F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2A60407E2D66967800F96E24</key>
 		<dict>
 			<key>primary</key>
@@ -33,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>2A6040BA2D66A3F600F96E24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2ABE4B982D6915DB0055B82D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

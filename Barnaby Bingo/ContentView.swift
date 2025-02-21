@@ -13,7 +13,7 @@ struct ContentView: View {
             Colors.background
                 .ignoresSafeArea()
             
-            Image("barnaby")
+            Image("Background")
                 .resizable()
                 .ignoresSafeArea()
                 .opacity(0.6)

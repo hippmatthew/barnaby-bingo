@@ -1,14 +1,14 @@
 //
-//  MidsomerBingoApp.swift
-//  MidsomerBingo
+//  MainView.swift
+//  BarnabyBingo
 //
-//  Created by Groot on 2/19/25.
+//  Created by Groot on 2/21/25.
 //
 
 import SwiftUI
 
 @main
-struct MidsomerBingoApp : App {
+struct BarnabyBingoApp : App {
     var body: some Scene {
         WindowGroup {
             ContentView()

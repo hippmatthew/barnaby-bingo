@@ -16,7 +16,7 @@ struct Board : View {
     var body : some View {
         Group {
             if err != nil {
-                Text("failed to load board")
+                Text("failed to load board with error: \(String(describing: err))")
                     .bold()
             }
             else if cells.isEmpty {
@@ -41,7 +41,7 @@ struct Board : View {
     }
     
     func getBoard() {
-        guard let filepath = Bundle.main.url(forResource: "midsomer", withExtension: "bingo") else {
+        guard let filepath = Bundle.main.url(forResource: "sources", withExtension: "bingo") else {
             err = "failed to find bingo file"
             return
         }

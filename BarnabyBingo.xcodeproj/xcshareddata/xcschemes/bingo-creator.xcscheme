@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2A6040BA2D66A3F600F96E24"
+               BlueprintIdentifier = "2ABE4B982D6915DB0055B82D"
                BuildableName = "bingo-creator"
                BlueprintName = "bingo-creator"
-               ReferencedContainer = "container:MidsomerBingo.xcodeproj">
+               ReferencedContainer = "container:BarnabyBingo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,7 +36,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/groot/Documents/dev/remote/MidsomerBingo/bingo-creator"
+      customWorkingDirectory = "/Users/groot/Documents/dev/remote/barnaby-bingo/bingo-creator"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -46,15 +46,15 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2A6040BA2D66A3F600F96E24"
+            BlueprintIdentifier = "2ABE4B982D6915DB0055B82D"
             BuildableName = "bingo-creator"
             BlueprintName = "bingo-creator"
-            ReferencedContainer = "container:MidsomerBingo.xcodeproj">
+            ReferencedContainer = "container:BarnabyBingo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "midsomer.txt"
+            argument = "./sources.txt"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
@@ -69,10 +69,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2A6040BA2D66A3F600F96E24"
+            BlueprintIdentifier = "2ABE4B982D6915DB0055B82D"
             BuildableName = "bingo-creator"
             BlueprintName = "bingo-creator"
-            ReferencedContainer = "container:MidsomerBingo.xcodeproj">
+            ReferencedContainer = "container:BarnabyBingo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

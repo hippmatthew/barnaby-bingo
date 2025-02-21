@@ -12,10 +12,10 @@ struct Header : View {
     
     var body: some View {
         VStack {
-            Text("midsomer")
+            Text("barnaby")
                 .padding(.bottom, 1)
                 .font(.custom("SnellRoundhand", size: 23))
-                .kerning(6)
+                .kerning(7)
                 .foregroundColor(Colors.textLight)
                 .brightness(brightness)
                 .bold()
