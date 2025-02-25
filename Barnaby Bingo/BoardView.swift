@@ -41,14 +41,14 @@ struct Board : View {
     }
     
     func getBoard() {
-        guard let filepath = Bundle.main.url(forResource: "sources", withExtension: "bingo") else {
-            err = "failed to find bingo file"
+        guard let sources = NSDataAsset(name: "sources") else {
+            err = "bingo file not found"
             return
         }
         
         do {
-            let file = try parse(url: filepath)
-            cells = Array(file.items.shuffled().prefix(25))
+            let file = try parse(sources.data)
+            cells = Array(file.items.shuffled().prefix(25)).map { $0.lowercased() }
             cells[12] = "free"
         }
         catch {

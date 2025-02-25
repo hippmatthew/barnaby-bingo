@@ -14,8 +14,7 @@ struct BingoFile {
     let items: [String]
 }
 
-func parse(url: URL) throws -> BingoFile {
-    let data = try Data(contentsOf: url)
+func parse(_ data: Data) throws -> BingoFile {
     var offset = 0
     
     func readUInt16() -> UInt16 {
