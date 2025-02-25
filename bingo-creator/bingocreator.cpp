@@ -43,14 +43,27 @@ bool BingoCreator::exportHTML(std::string path) const {
     output << "\t<meta charset=\"UTF-8\">\n";
     output << "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n";
     output << "\t<title>Barnaby Bingo</title>\n";
+    output << "\t<link rel=\"stylesheet\" href=\"./styles.css\">\n";
     output << "</head>\n";
     output << "<body>\n";
-    output << "\t<ul>\n";
+    output << "\t<header>\n";
+    output << "\t\t<h1>Barnaby Bingo</h1>\n";
+    output << "\t\t<nav>\n";
+    output << "\t\t\t<ul class=\"nav_links\">\n";
+    output << "\t\t\t\t<li><a href=\"./index.html\">Home</a></li>\n";
+    output << "\t\t\t\t<li><a href=\"./list.html\">List</a></li>\n";
+    output << "\t\t\t</ul>\n";
+    output << "\t\t</nav>\n";
+    output << "\t</header>\n";
+    output << "\t<div class=\"spacer\"></div>\n";
+    output << "\t<div class=\"content\">\n";
+    output << "\t\t<ul>\n";
 
     for (const auto& item : items)
-        output << "\t\t<li>" << item.item << "</li>\n";
+        output << "\t\t\t<li>" << item.item << "</li>\n";
 
-    output << "\t</ul>\n";
+    output << "\t\t</ul>\n";
+    output << "\t</div>\n";
     output << "</body>\n";
     output << "</html>";
 

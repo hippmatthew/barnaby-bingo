@@ -1,0 +1,64 @@
+body {
+  background-image: url("./village.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li, h1, p, a {
+  font-family: "Tahmoma", sans-serif;
+  text-decoration: none;
+}
+
+li, a {
+  transition: all 250ms ease 0ms;
+}
+
+ul li {
+  padding: 3px 1px;
+}
+
+a:hover {
+  color: #880808;
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items:  center;
+  padding: 3px 10px;
+  background-color: rgba(235, 235, 255, 0.5);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+header h1 {
+  font-family: "Courier New", monospace;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links a {
+  font-size: 20px
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  padding: 3px 10px;
+  background-color: rgba(235, 235, 255, 0.5);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.spacer {
+  height: 10px;
+}
