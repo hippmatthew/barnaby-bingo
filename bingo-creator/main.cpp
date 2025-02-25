@@ -10,20 +10,32 @@
 #include <iostream>
 
 int main(int argc, char ** argv) {
-  if (argc < 2) {
-    std::cout << "must supply path to the item list .txt file\n";
+  if (argc < 3) {
+    std::cout << "must supply path to the item list .txt file and whether it is source or html output\n";
     return -1;
   }
 
-  std::string input, output;
-  input = output = argv[1];
-
-  unsigned long pos = output.find(".txt");
-  if (pos == std::string::npos) {
-    std::cout << "given invalid file. please supply a .txt file with a list of items to turn into bingo slots\n";
+  if (std::string(argv[2]) != "source" && std::string(argv[2]) != "html") {
+    std::cout << "output type is either source or html\n";
     return -1;
   }
-  output.replace(pos, 6, ".bingo");
+
+  bool isSource = std::string(argv[2]) == "source";
+
+  std::string input = argv[1];
+  std::string output = "list.html";
+
+  if (isSource) {
+    output = input;
+
+    unsigned long pos = output.find(".txt");
+    if (pos == std::string::npos) {
+      std::cout << "given invalid file. please supply a .txt file with a list of items to turn into bingo slots\n";
+      return -1;
+    }
+
+    output.replace(pos, 6, ".bingo");
+  }
 
   BingoCreator creator;
 
@@ -32,9 +44,17 @@ int main(int argc, char ** argv) {
     return -1;
   }
 
-  if (!creator.exportFile(output)) {
-    std::cout << "failed to create new bingo file\n";
-    return -1;
+  if (isSource) {
+    if (!creator.exportFile(output)) {
+      std::cout << "failed to create new bingo file\n";
+      return -1;
+    }
+  }
+  else {
+    if (!creator.exportHTML(output)) {
+      std::cout << "failed to create html file\n";
+      return -1;
+    }
   }
 }
 

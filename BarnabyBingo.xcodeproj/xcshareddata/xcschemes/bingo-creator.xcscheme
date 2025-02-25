@@ -54,7 +54,11 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "./sources.txt"
+            argument = "sources.txt"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "html"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

@@ -28,6 +28,7 @@ class BingoCreator {
     ~BingoCreator() = default;
 
     bool exportFile(std::string) const;
+    bool exportHTML(std::string) const;
     bool fromText(std::string);
 
   private:

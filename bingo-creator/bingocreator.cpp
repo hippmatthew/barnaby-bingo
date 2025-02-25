@@ -33,6 +33,30 @@ bool BingoCreator::exportFile(std::string path) const {
   return true;
 }
 
+bool BingoCreator::exportHTML(std::string path) const {
+    std::ofstream output(path);
+    if (!output) return false;
+
+    output << "<!DOCTYPE hmtl>\n";
+    output << "<html lang=en>\n";
+    output << "<head>\n";
+    output << "\t<meta charset=\"UTF-8\">\n";
+    output << "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n";
+    output << "\t<title>Barnaby Bingo</title>\n";
+    output << "</head>\n";
+    output << "<body>\n";
+    output << "\t<ul>\n";
+
+    for (const auto& item : items)
+        output << "\t\t<li>" << item.item << "</li>\n";
+
+    output << "\t</ul>\n";
+    output << "</body>\n";
+    output << "</html>";
+
+    return true;
+}
+
 bool BingoCreator::fromText(std::string path) {
   std::ifstream input(path);
   if (!input) return false;
