@@ -46,5 +46,5 @@ struct Header : View {
 #Preview {
     Header()
         .padding(5)
-        .background(Color.black)
+        .background(.black)
 }

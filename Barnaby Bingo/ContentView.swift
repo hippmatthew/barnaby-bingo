@@ -16,9 +16,9 @@ struct ContentView: View {
             Image("Background")
                 .resizable()
                 .ignoresSafeArea()
-                .opacity(0.6)
+                .opacity(0.4)
                 .blur(radius: 5)
-            
+        
             VStack(spacing: 10) {
                 Header()
                 Board()

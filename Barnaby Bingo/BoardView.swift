@@ -11,25 +11,20 @@ struct Board : View {
     @State private var cells : [String] = []
     @State private var err : String? = nil
     
-    let items = Array(1...25).map { "Item \($0)" }
-    
     var body : some View {
         Group {
-            if err != nil {
-                Text("failed to load board with error: \(String(describing: err))")
-                    .bold()
-            }
-            else if cells.isEmpty {
-                Text("loading board...")
+            if cells.isEmpty {
+                Text(err != nil ? "Loading board..." : "\(String(describing: err))")
             }
             else {
                 GeometryReader { geometry in
                     let sideLength = (geometry.size.width - 10) / 5
                     let spacing = (geometry.size.height - sideLength * 5) / 4
                     let columns = Array(repeating: GridItem(.flexible()), count: 5)
+                    let offset = -geometry.size.height / 2;
                     
                     LazyVGrid(columns: columns, spacing: spacing) {
-                        ForEach(cells, id: \.self) {cell in
+                        ForEach(cells, id: \.self) { cell in
                             Cell(text: cell, size: sideLength)
                         }
                     }
@@ -37,7 +32,9 @@ struct Board : View {
                 }
             }
         }
-        .onAppear(perform: getBoard)
+        .onAppear {
+            getBoard()
+        }
     }
     
     func getBoard() {
