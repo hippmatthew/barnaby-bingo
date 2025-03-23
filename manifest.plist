@@ -17,7 +17,7 @@
       <key>metadata</key>
       <dict>
         <key>bundle-identifier</key>
-        <string>barnaby.bingo.app</string>
+        <string>cloud.hipp.Barnaby-Bingo</string>
         <key>bundle-version</key>
         <string>1.0.0</string>
         <key>kind</key>
